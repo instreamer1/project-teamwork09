@@ -1,3 +1,15 @@
-.about {
-color: aqua;
+.about-us {
+}
+.container {
+}
+.about-us-title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+}
+.title-gray {
+  color: #bea69e;
+}
+.about-us-pic {
 }
