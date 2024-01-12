@@ -1,5 +1,8 @@
 .signup-container {
     max-width: 480px;
+    display: inline-block;
+    margin-right: 200px;
+
 }
 
 .signup-title {
@@ -100,21 +103,27 @@
     text-decoration-line: underline;
 }
 
-
+.signup-pics {
+    display: inline-flex;
+    margin-bottom: 150px;
+}
 
 .signup-pics-lens {
 
     background-color: #BEA69E;
-    border-radius: px;
+    border-radius: 1000px;
+    width: 190px;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 20px;
 }
 
 .signup-pics-camera {
     background-color: #1D1D1D;
-    ;
+    border-radius: 1000px;
+    width: 350px;
     box-sizing: border-box;
     display: flex;
     align-items: center;
