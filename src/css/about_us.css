@@ -1,15 +1,98 @@
 .about-us {
+  padding: 80px 20px;
+  background-color: #121212;
+  font-family: DM Sans, sans-serif;
 }
+
+@media only screen and (min-width: 768px) {
+  .about-us {
+    padding: 100px 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-us {
+    padding: 150px 100px;
+  }
+}
+
 .container {
+  padding: 0;
 }
+
 .about-us-title {
-  font-size: 48px;
+  font-size: 28px;
   font-weight: 500;
-  line-height: 1.12;
+  line-height: 1.14;
   letter-spacing: -0.04em;
+  margin-bottom: 40px;
 }
+
+@media only screen and (min-width: 768px) {
+  .about-us-title {
+    color: #fff;
+    font-size: 48px;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+  }
+}
+
 .title-gray {
   color: #bea69e;
 }
-.about-us-pic {
+
+.wrapper-pic-text {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .wrapper-pic-text {
+    gap: 50px;
+  }
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .text-wrapper {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .text-wrapper {
+    gap: 20px;
+  }
+}
+
+.about-us-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-us-text {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    width: 280px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-us-text {
+    width: 268px;
+  }
+
+  .about-us-text:last-child {
+    width: 264px;
+  }
 }
