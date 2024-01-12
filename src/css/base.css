@@ -1,5 +1,5 @@
 body {
-  font-family: 'DM+Sans';
+  font-family: 'DM Sans';
   color:#FFF;
   font-size: 16px;
   font-weight: 400;
@@ -21,7 +21,7 @@ body {
 
 .container {
   max-width: 374.98px;
-  padding: 0 16px;
+  padding: 0 20px;
   margin: 0 auto;
   background-color: var(--black, #121212);
 }

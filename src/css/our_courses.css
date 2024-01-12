@@ -1,3 +1,132 @@
-.our_courses {
-    color: #ce1a38;
+
+body{
+    font-family: DM Sans;
+}
+ol{
+    list-style-type: none;
+}
+
+.our-courses {
+    margin: 0;
+    /* padding-top: 120px;
+    padding-bottom: 120px; */
+
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+
+    background-color: #121212;
+
+    overflow: hidden;
+    
+    
+}
+
+
+.our-courses-header {
+    color: #FFF;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -1.92px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    
+
+}
+
+.courses-span {
+    color: #BEA69E;
+}
+
+.our-courses-paragraph{
+    color: #FFF;
+    
+    line-height: 20px;
+    letter-spacing: -0.32px;
+    margin-bottom: 50px;
+
+    display: flex;
+    text-align: left;
+
+    margin-left: 670px;
+    margin-top: -100px;
+    
+}
+
+.our-courses-list {
+    display: flex;
+    gap: 2vw;
+    padding: 0 5vw; 
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.our-courses-wrapper {
+    width: 400px;
+    height: 452px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
+    position: relative;
+}
+
+.arrow-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 32px;
+    height: 32px;
+    max-height: 100%;
+    max-width: 100%;
+
+    background-color: #1D1D1D;
+    border-radius: 100%;
+
+    position: absolute;
+    top: 32px;
+    right: 32px;
+
+
+}
+
+.arrow-icon {
+   fill: #777777;
+   width: 20px;
+   height: 20px;
+   
+}
+
+.our-courses-number{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+
+.our-courses-topic {
+    color: #FFF;
+    font-size: 28px;
+    line-height: 32px;
+    position: absolute;
+    top: 96px;
+    left: 32px;
+    
+}
+
+
+.our-courses-text {
+    color: rgba(255, 255, 255, 0.50);
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.32px;
+        padding-right: 32px;
+        position: absolute;
+        bottom: 32px;
+        left: 32px;
+        
 }
