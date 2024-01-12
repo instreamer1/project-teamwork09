@@ -106,6 +106,7 @@
 .signup-pics {
     display: inline-flex;
     margin-bottom: 150px;
+    width: 560px;
 }
 
 .signup-pics-lens {
@@ -118,6 +119,20 @@
     align-items: center;
     justify-content: center;
     margin-right: 20px;
+
+    height: 288px;
+    flex-shrink: 0;
+
+
+}
+
+.signup-img {
+    transform: rotate(-90deg);
+    background-image: url("https: //s3-alpha-sig.figma.com/img/08e5/394c/3f7c65c0f402f1061ebb08a8b671983d?Expires=1705881600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e22iZBFLNtBilR2KnfcQBk8~FGSKwxdqOFn42pbUKuPqtLxX8Fno-sh3zWpjGA2msHEyPmGWaBzsEeHb~SoVwWQbpHHhcd0wfmgHLqy6r4WOAE9nOZ4GHakL1aLd1FluA4QvmMGygMzvV8H~~Ei9K93wKnVHTSwXkm2T50Yoeg6zI0193c4aye7-gUbPW2AitAbii0Xxqyn3HlQu59XpCzGSQO1v~ZZG9XmTTFUSU75yTuKiB4gsKyFQkrWACPxz4LlAhD4LufD~qbg4n~pmkthSFN2vjd59lPXxq6VV3wjkl4GINtf3FJh~bjo0oKXT~GTgzRCA8V7QCP6yHjneqg__");
+    background-repeat: no-repeat;
+
+    box-shadow: -35px 18px 25px 0px rgba(0, 0, 0, 0.26);
+
 }
 
 .signup-pics-camera {
@@ -128,4 +143,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    height: 540px;
+    flex-shrink: 0;
 }
