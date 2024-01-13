@@ -19,6 +19,17 @@ h1 {
         line-height: 1.1;
         letter-spacing: -0.04em;
 }
+@media only screen and (min-width: 768px) {
+  h1 {
+    color: #FFF;
+        font-family: DM Sans;
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 64px;
+        /* 106.667% */
+        letter-spacing: -2.4px;
+  }
+}
 .hero-span {
     color: #BEA69E;
         font-style: italic;
@@ -40,16 +51,32 @@ h1 {
 }
 .students-wrapper {
     display: flex;
-        width: 109px;
-        align-items: center;
-        align-content: center;
         row-gap: 4px;
         flex-wrap: wrap;
+        flex-direction: column;
+        width: 109px;
 }
 .students-list {
     margin-top: 40px;
     display: flex;
     flex-shrink: 0;
+    position: relative;
+    width: 109px;
+    height: 44px;
+}
+.students-item {
+    position: absolute;
+}
+.students-item:nth-child(1) {
+    z-index: 4;
+}
+.students-item:nth-child(2) {
+    z-index: 3;
+    left: 32px;
+}
+.students-item:nth-child(3) {
+    z-index: 2;
+    left: 64px;
 }
 .students-img {
     flex-shrink: 0;
@@ -59,7 +86,6 @@ h1 {
 }
 .hero-wrapper  {
     display: flex;
-        justify-content: center;
         align-items: center;
         gap: 4px;
 }
