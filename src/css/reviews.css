@@ -1,3 +1,21 @@
+.reviews {
+  max-width: 374.98px;
+  min-height: 396px;
+  padding-top: 0;
+  padding-bottom: 80px;
+  margin: 0 auto;
+  /* background-color: var(--black, #121212); */
+  padding-bottom: 80px;
+}
+
+.reviews-title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.13;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
+}
 
 .reviews-user-title {
   color: #fff;
@@ -97,7 +115,6 @@
   .reviews-list-item.hidden {
     display: block;
   }
-  
   .reviews-list-item {
     padding: 20px;
     border-radius: 12px;
@@ -115,4 +132,3 @@
     max-width: 1440px;
   }
 }
-
