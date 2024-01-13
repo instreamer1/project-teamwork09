@@ -9,25 +9,15 @@
 @media only screen and (min-width: 768px) {
   .about-us {
     max-width: 768px;
-    padding: 100px 32px;
+    padding: 100px 0;
   }
-}
-
-@media only screen and (min-width: 1280px) {
-  .about-us {
-    max-width: 1280px;
-    padding: 150px 100px;
+  .about-us-title {
+    color: #fff;
+    font-size: 48px;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+    margin-bottom: 50px;
   }
-}
-
-@media only screen and (min-width: 1440px) {
-  .about-us {
-    max-width: 1440px;
-  }
-}
-
-.container {
-  padding: 0;
 }
 
 .about-us-title {
@@ -36,16 +26,6 @@
   line-height: 1.14;
   letter-spacing: -0.04em;
   margin-bottom: 40px;
-}
-
-@media only screen and (min-width: 768px) {
-  .about-us-title {
-    color: #fff;
-    font-size: 48px;
-    line-height: 1.12;
-    letter-spacing: -0.04em;
-    margin-bottom: 50px;
-  }
 }
 
 .title-gray {
@@ -77,12 +57,6 @@
   }
 }
 
-@media only screen and (min-width: 1280px) {
-  .text-wrapper {
-    gap: 19.124px;
-  }
-}
-
 .about-us-text {
   font-size: 14px;
   line-height: 1.29;
@@ -99,11 +73,26 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .about-us {
+    max-width: 1280px;
+  }
   .about-us-text {
     width: 268.469px;
   }
 
   .about-us-text:last-child {
     width: 264.422px;
+  }
+  .text-wrapper {
+    gap: 19.124px;
+  }
+  .wrapper-picture-text {
+    flex-wrap: nowrap;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .about-us {
+    max-width: 1440px;
   }
 }
