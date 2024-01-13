@@ -1,9 +1,10 @@
 body {
-  font-family: 'DM Sans', sans-serif;
-  color: #fff;
-  font-size: 16px;
+  font-family: 'DM Sans';
+  color: #FFF;
+  /* font-size: 14px; */
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 }
 
 .visually-hidden {
@@ -19,34 +20,34 @@ body {
   clip: rect(0 0 0 0);
 }
 
-section {
-  background-color: var(--black, #121212);
+@media screen and (min-width: 375px) and (max-width: 767.98px) {
+  .container {
+    max-width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
 }
 
-.container {
-  max-width: 374.98px;
-  padding: 0 20px;
-  margin: 0 auto;
-  background-color: var(--black, #121212);
-}
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1279.98px) {
   .container {
     max-width: 768px;
-    padding-right: 32px;
-    padding-left: 32px;
+    padding: 0 32px;
+    margin: 0 auto;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) and (max-width: 1439.98px) {
   .container {
     max-width: 1280px;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding: 0 100px;
+    margin: 0 auto;
   }
 }
+
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
+    padding: 0 100px;
+    margin: 0 auto;
   }
 }
