@@ -36,19 +36,60 @@ h1 {
 .hero-text.students {
     letter-spacing: -0.03em;
     width: 67px;
+    margin: 0;
+}
+.students-wrapper {
+    display: flex;
+        width: 109px;
+        align-items: center;
+        align-content: center;
+        row-gap: 4px;
+        flex-wrap: wrap;
 }
 .students-list {
     margin-top: 40px;
-display: flex;
+    display: flex;
     flex-shrink: 0;
+    /*position: relative;*/
 }
+/*
+.students-item {
+ position: absolute;
+}
+.students-item:nth-child(1) {
+    top: 1px;
+    left: 1px;
+    z-index: 1;
+}
+.students-item:nth-child(2) {
+    top: 1px;
+    left: 32px;
+    z-index: 2;
+} */
 .students-img {
     flex-shrink: 0;
     border-radius: 100px;
-        border: 2px solid #1D1D1D;
-        background: var(--avatar-user-square-caitlyn-king-neutral-background, url(<path-to-image>), lightgray 50% / cover no-repeat, #E0E0E0);
+    border: 2px solid #1D1D1D;
+    background: var(--avatar-user-square-caitlyn-king-neutral-background, url(<path-to-image>), lightgray 50% / cover no-repeat, #E0E0E0);
 }
-
-
+.hero-wrapper  {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+}
+.reviews-wrapper {
+    display: flex;
+}
+.reviews-item {
+    border-radius: 100px;
+    background: #BEA69E;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
