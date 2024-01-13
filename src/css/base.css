@@ -1,6 +1,6 @@
 body {
-  font-family: 'DM+Sans';
-  color:#FFF;
+  font-family: 'DM Sans', sans-serif;
+  color: #fff;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -19,9 +19,13 @@ body {
   clip: rect(0 0 0 0);
 }
 
+section {
+  background-color: var(--black, #121212);
+}
+
 .container {
   max-width: 374.98px;
-  padding: 0 16px;
+  padding: 0 20px;
   margin: 0 auto;
   background-color: var(--black, #121212);
 }
