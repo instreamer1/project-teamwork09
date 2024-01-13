@@ -12,15 +12,71 @@
     <div>
       <ul class="students-list">
         <li class="students-item">
-          <image>
-            <svg class="" width="44" height="44">
-              <use href=""></use>
-            </svg>
-          </image>
+          <picture>
+            <img
+              class="student-img"
+              srcset="
+                ./img/img-hero/girl1.png    1x,
+                ./img/img-hero/girl1@2x.png 2x
+              "
+              src="./img/img-hero/girl1.png"
+              width="44"
+              alt="Student 1"
+              loading="lazy"
+            />
+          </picture>
         </li>
-        <li class="students-item"></li>
-        <li class="students-item"></li>
+        <li class="students-item">
+          <picture>
+            <img
+              class="student-img"
+              srcset="./img/img-hero/boy.png 1x, ./img/img-hero/boy@2x.png 2x"
+              src="./img/img-hero/boy.png"
+              width="44"
+              alt="Student 2"
+              loading="lazy"
+            />
+          </picture>
+        </li>
+        <li class="students-item">
+          <picture>
+            <img
+              class="student-img"
+              srcset="./img/img-hero/girl.png 1x, ./img/img-hero/girl@2x.png 2x"
+              src="./img/img-hero/girl.png"
+              width="44"
+              alt="Student 3"
+              loading="lazy"
+            />
+          </picture>
+        </li>
       </ul>
+      <p>Our happy students</p>
+      <svg class="" width="" height="">
+        <use href=""></use>
+      </svg>
     </div>
+    <div class="reviews-wrapp">
+      <li class="reviews-item">
+        <svg class="star" width="" height="">
+          <use href=""></use>
+        </svg>
+      </li>
+      <p class="reviews-text">Reviews</p>
+      <p class="reviews-text-numbers">+1500</p>
+    </div>
+    <picture>
+      <img
+        class="student-img"
+        srcset="
+          ./img/img-hero/photograph.png    1x,
+          ./img/img-hero/photograph@2x.png 2x
+        "
+        src="./img/img-hero/photograph.png"
+        width="259"
+        alt="Photograph photo"
+        loading="lazy"
+      />
+    </picture>
   </div>
 </section>
