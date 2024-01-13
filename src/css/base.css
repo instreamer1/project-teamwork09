@@ -1,6 +1,6 @@
 body {
-  font-family: 'DM+Sans';
-  color:#FFF;
+  font-family: 'DM Sans';
+  color: #fff;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -21,9 +21,8 @@ body {
 
 .container {
   max-width: 374.98px;
-  padding: 0 16px;
+  padding: 0 20px;
   margin: 0 auto;
-  background-color: var(--black, #121212);
 }
 
 @media screen and (min-width: 768px) {
