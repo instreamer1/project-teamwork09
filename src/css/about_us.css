@@ -68,7 +68,7 @@
 
 @media only screen and (min-width: 1280px) {
   .text-wrapper {
-    gap: 20px;
+    gap: 19.124px;
   }
 }
 
@@ -83,16 +83,16 @@
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.02em;
-    width: 280px;
+    width: 280.188px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .about-us-text {
-    width: 268px;
+    width: 268.469px;
   }
 
   .about-us-text:last-child {
-    width: 264px;
+    width: 264.422px;
   }
 }
