@@ -9,11 +9,7 @@
     max-width: 768px;
   }
 }
-@media screen and (min-width: 1280px) {
-  .section-ticker {
-    max-width: 1280px;
-  }
-}
+
 marquee {
   overflow: hidden;
   width: 100%;
@@ -69,5 +65,14 @@ marquee {
     font-size: 59px;
     line-height: 1.08;
     letter-spacing: -1.18px;
+  }
+    .section-ticker {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section-ticker {
+    max-width: 1440px;
   }
 }
