@@ -34,6 +34,7 @@
     font-size: 48px;
     line-height: 1.12;
     letter-spacing: -0.04em;
+    margin-bottom: 50px;
   }
 }
 
@@ -41,14 +42,14 @@
   color: #bea69e;
 }
 
-.wrapper-pic-text {
+.wrapper-picture-text {
   display: flex;
   gap: 40px;
   flex-wrap: wrap;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1279.98px) {
-  .wrapper-pic-text {
+  .wrapper-picture-text {
     gap: 50px;
   }
 }
