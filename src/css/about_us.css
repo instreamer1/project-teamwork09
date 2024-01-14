@@ -1,23 +1,10 @@
 .about-us {
-  padding: 80px 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: #121212;
   font-family: DM Sans, sans-serif;
   margin: 0 auto;
   max-width: 374.98px;
-}
-
-@media only screen and (min-width: 768px) {
-  .about-us {
-    max-width: 768px;
-    padding: 100px 0;
-  }
-  .about-us-title {
-    color: #fff;
-    font-size: 48px;
-    line-height: 1.12;
-    letter-spacing: -0.04em;
-    margin-bottom: 50px;
-  }
 }
 
 .about-us-title {
@@ -38,23 +25,10 @@
   flex-wrap: wrap;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1279.98px) {
-  .wrapper-picture-text {
-    gap: 50px;
-  }
-}
-
 .text-wrapper {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-@media only screen and (min-width: 768px) {
-  .text-wrapper {
-    flex-direction: row;
-    gap: 40px;
-  }
 }
 
 .about-us-text {
@@ -64,6 +38,24 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .about-us {
+    max-width: 768px;
+    padding: 100px 0;
+  }
+
+  .about-us-title {
+    color: #fff;
+    font-size: 48px;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+    margin-bottom: 50px;
+  }
+
+  .text-wrapper {
+    flex-direction: row;
+    gap: 40px;
+  }
+
   .about-us-text {
     font-size: 16px;
     line-height: 1.25;
@@ -72,10 +64,26 @@
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .wrapper-picture-text {
+    gap: 50px;
+  }
+}
+
 @media only screen and (min-width: 1280px) {
   .about-us {
     max-width: 1280px;
+    padding: 150px 0;
   }
+
+  .wrapper-picture-text {
+    flex-wrap: nowrap;
+  }
+
+  .text-wrapper {
+    gap: 19.124px;
+  }
+
   .about-us-text {
     width: 268.469px;
   }
@@ -83,16 +91,26 @@
   .about-us-text:last-child {
     width: 264.422px;
   }
-  .text-wrapper {
-    gap: 19.124px;
-  }
-  .wrapper-picture-text {
-    flex-wrap: nowrap;
-  }
 }
 
 @media only screen and (min-width: 1440px) {
   .about-us {
     max-width: 1440px;
+  }
+
+  .wrapper-picture-text {
+    gap: 50px;
+  }
+
+  .text-wrapper {
+    gap: 40px;
+  }
+
+  .about-us-text {
+    width: 314px;
+  }
+
+  .about-us-text:last-child {
+    width: 276px;
   }
 }
