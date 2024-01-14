@@ -1,5 +1,4 @@
 .hero {
-    color: #5926ac;
     background: var(--black, #121212);
     padding-top: 20px;
 }
@@ -13,7 +12,7 @@ h1 {
     margin-top: 20px;
     width: 295px;
     color: #FFF;
-        font-family: DM Sans;
+    font-family: DM Sans;
         font-size: 40px;
         font-weight: 500;
         line-height: 1.1;
@@ -21,13 +20,8 @@ h1 {
 }
 @media only screen and (min-width: 768px) {
   h1 {
-    color: #FFF;
-        font-family: DM Sans;
         font-size: 60px;
-        font-weight: 500;
-        line-height: 64px;
-        /* 106.667% */
-        letter-spacing: -2.4px;
+        width: 517px;
   }
 }
 .hero-span {
@@ -44,28 +38,62 @@ h1 {
         letter-spacing: -0.02em;
         margin-top: 20px;
 }
+@media only screen and (min-width: 768px) {
+  .hero-text {
+    width: 418px;
+    height: 54px;
+    flex-shrink: 0;
+  }
+}
 .hero-text.students {
     letter-spacing: -0.03em;
     width: 67px;
     margin: 0;
+}
+.wrapper {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 31px;
+    margin-top: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .wrapper {
+     align-items: flex-start;
+  }
 }
 .students-wrapper {
     display: flex;
         row-gap: 4px;
         flex-wrap: wrap;
         flex-direction: column;
-        width: 109px;
+}
+@media only screen and (min-width: 768px) {
+  .students-wrapper {
+    flex-direction: row;
+    column-gap: 12px;
+  }
 }
 .students-list {
-    margin-top: 40px;
     display: flex;
     flex-shrink: 0;
     position: relative;
     width: 109px;
     height: 44px;
 }
+@media only screen and (min-width: 768px) {
+  .students-list {
+    height: 54px;
+    width: 137px;
+  }
+}
 .students-item {
     position: absolute;
+}
+@media only screen and (min-width: 768px) {
+  .students-item {
+    width: 54px;
+    height: 54px;
+  }
 }
 .students-item:nth-child(1) {
     z-index: 4;
@@ -74,20 +102,43 @@ h1 {
     z-index: 3;
     left: 32px;
 }
+@media only screen and (min-width: 768px) {
+    .students-item:nth-child(2) {
+        left: 40px;
+  }
+}
 .students-item:nth-child(3) {
     z-index: 2;
     left: 64px;
 }
-.students-img {
+@media only screen and (min-width: 768px) {
+    .students-item:nth-child(3) {
+        left: 80px;
+    }
+}
+.student-img {
     flex-shrink: 0;
     border-radius: 100px;
-    border: 2px solid #1D1D1D;
-    background: var(--avatar-user-square-caitlyn-king-neutral-background, url(<path-to-image>), lightgray 50% / cover no-repeat, #E0E0E0);
+}
+@media only screen and (min-width: 768px) {
+  .student-img {
+    width: 54px;
+    height: 54px;
+  }
+}
+.student-img-photograph {
+    border-radius: 0;
+    margin: 0 auto;
 }
 .hero-wrapper  {
     display: flex;
         align-items: center;
         gap: 4px;
+}
+@media only screen and (min-width: 768px) {
+  .hero-wrapper {
+    flex-direction: column;
+  }
 }
 .reviews-wrapper {
     display: flex;
