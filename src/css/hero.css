@@ -230,5 +230,6 @@ h1 {
   .wrapper-photograph {
     display: flex;
     justify-content: flex-end;
+    margin-top: auto;
   }
 }
