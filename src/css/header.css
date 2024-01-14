@@ -251,6 +251,33 @@
         opacity: 1;
         visibility: visible;
     }
+
+
+
+}
+
+@media screen and (max-width: 319.98px) {
+
+    .header-section__tablet-icon-burger {
+        display: none;
+    }
+
+    .wrapper__link {
+        display: none;
+    }
+
+    .burger-content__tablet-img {
+        display: none;
+    }
+
+    .header-section__list {
+        display: none;
+    }
+
+    .burger-content__close-tablet-icon {
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 767.98px) {
