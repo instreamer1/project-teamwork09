@@ -1,0 +1,123 @@
+.our-mentors {
+  max-width: 374.98px;
+  margin: 0 auto;
+}
+.mentors-container {
+  /* Phone */
+  padding-bottom: 80px;
+}
+
+.mentors {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  padding-bottom: 40px;
+}
+
+.mentors-color {
+  color: #bea69e;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+}
+
+.mentors-list {
+  text-align: center;
+}
+
+.mentors-list-item:not(:last-child) {
+  padding-bottom: 40px;
+}
+
+.mentor-avatar {
+  border-radius: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 16px;
+}
+
+.mentor-name {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+
+
+
+.mentor-exp {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+}
+
+
+@media screen and (min-width: 768px) {
+  .our-mentors {
+    max-width: 768px;
+  }
+  .mentors-container {
+    /* Tablet */
+
+    padding-bottom: 100px;
+  }
+  .mentors {
+    font-size: 48px;
+    line-height: 1.13;
+    padding-bottom: 50px;
+  }
+  .mentors-color {
+    font-size: 48px;
+    line-height: 1.13;
+  }
+  .mentors-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 100px;
+    row-gap: 93px;
+  }
+  .mentor-name {
+    font-size: 28px;
+    line-height: 1.14;
+  }
+  .mentor-exp {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .our-mentors {
+    max-width: 1280px;
+  }
+  .mentors-container {
+    /* Desktop */
+    padding-bottom: 150px;
+  }
+}
+
+/* Styles */
+
+@media only screen and (min-width: 1440px) {
+  .our-mentors {
+    max-width: 1440px;
+  }
+}
+
+
+
