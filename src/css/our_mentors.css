@@ -1,26 +1,10 @@
+.our-mentors {
+  max-width: 374.98px;
+  margin: 0 auto;
+}
 .mentors-container {
   /* Phone */
   padding-bottom: 80px;
-}
-
-@media screen and (min-width: 768px) {
-  .mentors-container {
-    /* Tablet */
-
-    padding-bottom: 100px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .mentors-container {
-    /* Desktop */
-    padding-bottom: 150px;
-  }
-}
-
-/* Styles */
-
-.our-mentors {
 }
 
 .mentors {
@@ -34,21 +18,56 @@
   padding-bottom: 40px;
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+  .our-mentors {
+    max-width: 768px;
+  }
+  .mentors-container {
+    /* Tablet */
+
+    padding-bottom: 100px;
+  }
   .mentors {
     font-size: 48px;
     line-height: 1.13;
     padding-bottom: 50px;
   }
-}
-
-@media only screen and (min-width: 1280px) {
-  .mentors {
+  .mentors-color {
+    font-size: 48px;
+    line-height: 1.13;
+  }
+  .mentors-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 100px;
+    row-gap: 93px;
+  }
+  .mentor-name {
+    font-size: 28px;
+    line-height: 1.14;
+  }
+  .mentor-exp {
+    font-size: 14px;
+    line-height: 1.29;
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .our-mentors {
+    max-width: 1280px;
+  }
+  .mentors-container {
+    /* Desktop */
+    padding-bottom: 150px;
+  }
+}
+
+/* Styles */
+
 @media only screen and (min-width: 1440px) {
-  .mentors {
+  .our-mentors {
+    max-width: 1440px;
   }
 }
 
@@ -62,28 +81,8 @@
   letter-spacing: -0.04em;
 }
 
-@media only screen and (min-width: 768px) {
-  .mentors-color {
-    font-size: 48px;
-    line-height: 1.13;
-  }
-}
-
 .mentors-list {
   text-align: center;
-}
-
-@media only screen and (min-width: 768px) {
-  .mentors-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    column-gap: 100px;
-    row-gap: 93px;
-  }
-}
-
-.mentors-list-item {
 }
 
 .mentors-list-item:not(:last-child) {
@@ -96,8 +95,7 @@
   margin-left: auto;
   margin-bottom: 16px;
 }
-.name-position {
-}
+
 .mentor-name {
   color: #fff;
   text-align: center;
@@ -108,12 +106,7 @@
   margin-bottom: 4px;
 }
 
-@media only screen and (min-width: 768px) {
-  .mentor-name {
-    font-size: 28px;
-    line-height: 1.14;
-  }
-}
+
 
 .mentor-exp {
   color: rgba(255, 255, 255, 0.5);
@@ -125,9 +118,3 @@
   letter-spacing: -0.02em;
 }
 
-@media only screen and (min-width: 768px) {
-  .mentor-exp {
-    font-size: 14px;
-    line-height: 1.29;
-  }
-}
