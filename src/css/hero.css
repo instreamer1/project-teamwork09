@@ -8,6 +8,17 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+@media only screen and (min-width: 1280px) {
+  .hero.container {
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+  }
+}
 h1 {
     margin-top: 20px;
     width: 295px;
@@ -22,6 +33,14 @@ h1 {
   h1 {
         font-size: 60px;
         width: 517px;
+        margin-top: 44px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  h1 {
+        font-size: 64px;
+        width: 563px;
+        margin-top: 0;
   }
 }
 .hero-span {
@@ -57,6 +76,13 @@ h1 {
     margin-bottom: 31px;
     margin-top: 40px;
     align-items: flex-start;
+}
+@media only screen and (min-width: 1280px) {
+  .wrapper {
+    max-width: 390px;
+    margin-top: 136px;
+    margin-bottom: 50px;
+  }
 }
 .students-wrapper {
     display: flex;
@@ -125,12 +151,21 @@ h1 {
 }
 .student-img-photograph {
     border-radius: 0;
-    margin: 0 auto;
 }
 @media only screen and (min-width: 768px) {
 .student-img-photograph {
     width: 393px;
   }
+}
+@media only screen and (max-width: 1279.98px) {
+    .student-img-photograph {
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .student-img-photograph {
+        width: 397px;
+    }
 }
 .hero-wrapper  {
     display: flex;
@@ -185,4 +220,10 @@ h1 {
 }
 .reviews-count {
    margin-bottom: 4px;
+}
+@media only screen and (min-width: 1280px) {
+  .wrapper-photograph {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
