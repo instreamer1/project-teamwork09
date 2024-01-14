@@ -18,16 +18,22 @@
                 ></use>
               </svg>
             </a>
-            <svg
-              class="header-section__mobile-icon-burger"
-              width="32"
-              height="32"
+            <button
+              class="burger-btn"
+              aria-label="Open menu button"
+              data-menu-open
             >
-              <use
-                href="../img/header-images/header-icons/header-icons.svg#header-burger-mobile-icon"
-              ></use>
-            </svg>
-            <svg
+              <svg
+                class="header-section__mobile-icon-burger"
+                width="32"
+                height="32"
+              >
+                <use
+                  href="../img/header-images/header-icons/header-icons.svg#header-burger-mobile-icon"
+                ></use>
+              </svg>
+            </button>
+            <!-- <svg
               class="header-section__tablet-icon-burger"
               width="40"
               height="28"
@@ -35,7 +41,7 @@
               <use
                 href="../img/header-images/header-icons/header-icons.svg#header-burger-tablet-icon"
               ></use>
-            </svg>
+            </svg> -->
           </div>
           <ul class="header-section__list">
             <li class="header-section__list-iten">
@@ -68,20 +74,22 @@
     <a href="#sign-up" class="wrapper__link">Sign up </a>
   </div>
 </div>
-<div class="burger">
+<div class="burger is-hidden" data-menu>
   <div class="burger-content">
-    <button type="button" class="burger-content__button">
+    <button type="button" class="burger-content__button" data-menu-close>
       <svg class="burger-content__close-mobile-icon" width="32" height="32">
         <use
           href="../img/header-images/header-icons/header-icons.svg#header-burger-mobile-close-icon"
         ></use>
       </svg>
+    </button>
+    <!-- <button type="button" class="burger-content__button" data-menu-close>
       <svg class="burger-content__close-tablet-icon" width="40" height="40">
         <use
           href="../img/header-images/header-icons/header-icons.svg#header-burger-tablet-close-icon"
         ></use>
       </svg>
-    </button>
+    </button> -->
     <ul class="burger-content-list">
       <li class="burger-content-list__item">
         <a href="#" class="burger-content-list__link">About us</a>
