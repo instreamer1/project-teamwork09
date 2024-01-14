@@ -188,6 +188,7 @@
         justify-content: center;
         align-items: center;
         background: transparent;
+        padding: 0;
     }
 
     .header-section__link-camera {
@@ -246,6 +247,7 @@
         top: 10px;
         right: 10px;
         background: transparent;
+        cursor: pointer;
     }
 
 
