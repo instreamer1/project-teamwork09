@@ -4,14 +4,39 @@ img {
     display: block;
 }
 
+body {
+    background-color: #121212;
+}
+
 .signup-container {
-    display: block;
+    display: flex;
+
+    width: auto;
 }
 
 @media screen and (min-width: 768px) {
     .signup-container {
         margin-left: 32px;
         margin-right: 256px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .signup-container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .signup-forms {
+        margin-right: 60px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .signup-forms {
+        margin-right: 200px;
     }
 }
 
@@ -38,6 +63,13 @@ img {
     line-height: 18px;
     margin-top: 20px;
     margin-bottom: 40px;
+    width: 295px;
+}
+
+@media screen and (min-width: 768px) {
+    .signup-text {
+        width: 480px;
+    }
 }
 
 .signup-input {
@@ -54,10 +86,16 @@ img {
     margin-bottom: 8px;
 }
 
+.signup-input:focus {
+    color: #FFF;
+}
+
+
+
+
 @media screen and (min-width: 768px) {
     .signup-input {
         margin-bottom: 14px;
-        margin-right: ;
         height: 60px;
 
     }
@@ -75,6 +113,10 @@ img {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.signup-message:focus {
+    color: #FFF;
+}
+
 .send-btn {
     width: 100%;
     background-color: #ffffff;
@@ -90,7 +132,7 @@ img {
     color: #121212;
     padding: 14px 127px;
     border-radius: 12px;
-
+    position: relative;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -103,9 +145,18 @@ img {
 .signup-policy-text {
     color: rgba(255, 255, 255, 0.50);
     font-size: 14px;
-    font-style: normal;
+    width: 335px;
+    height: auto;
     font-weight: 400;
     line-height: 18px;
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .signup-policy-text {
+        width: 480px;
+        height: auto;
+    }
 }
 
 .signup-policy-span {
@@ -130,22 +181,41 @@ img {
     }
 }
 
-.lens {
+.signup-pics-lens {
 
-    background-color: #BEA69E;
-    border-radius: 1000px;
-    transform: translateX(-26px);
     width: 190px;
     height: 288px;
     flex-shrink: 0;
+    border-radius: 1000px;
+    background: #BEA69E;
+
+}
+
+.signup-pics-camera {
+    width: 350px;
+    height: 540px;
+    flex-shrink: 0;
+    border-radius: 1000px;
+    background: #1D1D1D;
+
+}
+
+.lens {
+    position: relative;
+    width: 163px;
+    height: 154px;
+
+    flex-shrink: 0;
+    top: 80px;
+    right: 15px;
 
 }
 
 .camera {
+    position: relative;
+    top: 120px;
     width: 254px;
     height: 313px;
     flex-shrink: 0;
-    background-color: #1D1D1D;
-    border-radius: 1000px;
-
+    right: -40px;
 }
