@@ -6,7 +6,7 @@
           <a href="./index.html" class="header-section__link-logo">
             <svg class="header-section_icon-logo" width="127" height="20">
               <use
-                href="../img/header-images/header-icons/header-icons.svg#header-icon-logo"
+                href="./img/header-images/header-icons/header-icons.svg#header-icon-logo"
               ></use>
             </svg>
           </a>
@@ -15,15 +15,20 @@
               <a href="#" class="header-section__link-camera">
                 <svg class="header-section__icon-camera" width="16" height="16">
                   <use
-                    href="../img/header-images/header-icons/header-icons.svg#header-camera-mobile-icon"
+                    href="./img/header-images/header-icons/header-icons.svg#header-camera-mobile-icon"
                   ></use>
                 </svg>
               </a>
             </div>
-            <button type="button" class="header-section__btn">
+            <button
+              type="button"
+              class="header-section__btn"
+              aria-label="Open menu button"
+              data-menu-open
+            >
               <svg class="header-section__icon-burger" width="32" height="32">
                 <use
-                  href="../img/header-images/header-icons/header-icons.svg#header-burger-icon"
+                  href="./img/header-images/header-icons/header-icons.svg#header-burger-icon"
                 ></use>
               </svg>
             </button>
@@ -60,12 +65,12 @@
     <a href="#sign-up" class="wrapper__link">Sign up </a>
   </div>
 </div>
-<div class="burger">
-  <div class="burger-content">
-    <button type="button" class="burger-content__button">
+<div class="burger is-hidden" data-menu>
+  <div class="burger-content" >
+    <button type="button" class="burger-content__button" aria-label="Close menu button" data-menu-close>
       <svg class="burger-content__close-icon" width="32" height="32">
         <use
-          href="../img/header-images/header-icons/header-icons.svg#header-burger-close-icon"
+          href="./img/header-images/header-icons/header-icons.svg#header-burger-close-icon"
         ></use>
       </svg>
     </button>
@@ -89,9 +94,9 @@
     <img
       srcset="
         ./img/header-images/burger-mobile-img.jpg       1x,
-        ../img//header-images/burger-mobile-@2x-img.jpg 2x
+        ./img//header-images/burger-mobile-@2x-img.jpg 2x
       "
-      src="../img/header-images/burger-mobile-img.jpg"
+      src="./img/header-images/burger-mobile-img.jpg"
       alt="burger-mobile-img"
       width="218"
       height="329"
@@ -100,9 +105,9 @@
     <img
       srcset="
         ./img/header-images/burger-tablet-img.jpg       1x,
-        ../img//header-images/burger-tablet-@2x-img.jpg 2x
+        ./img//header-images/burger-tablet-@2x-img.jpg 2x
       "
-      src="../img/header-images/burger-tablet-img.jpg"
+      src="./img/header-images/burger-tablet-img.jpg"
       alt="burger-tablet-img"
       width="476"
       height="480"
