@@ -18,6 +18,10 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
 }
+button {
+  cursor: pointer;
+  border: none;
+}
 
 section {
   background-color: var(--black, #121212);
@@ -27,6 +31,13 @@ section {
   max-width: 374.98px;
   padding: 0 20px;
   margin: 0 auto;
+}
+@media screen and (max-width: 374.98px) {
+  .container {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -40,8 +51,8 @@ section {
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
   }
 }
 @media screen and (min-width: 1440px) {

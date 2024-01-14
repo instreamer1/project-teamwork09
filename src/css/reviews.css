@@ -1,5 +1,6 @@
 .reviews {
   max-width: 374.98px;
+   min-width: 320px;
   min-height: 396px;
   padding-top: 0;
   padding-bottom: 80px;

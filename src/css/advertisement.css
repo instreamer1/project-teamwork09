@@ -1,8 +1,9 @@
 .section-ticker.container {
   padding: 0;
+   min-width: 320px;
 }
 .section-ticker {
-  max-width: 375px;
+  max-width: 374.98px;
 }
 @media screen and (min-width: 768px) {
   .section-ticker {
