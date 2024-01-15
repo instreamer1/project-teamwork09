@@ -1,9 +1,8 @@
 .hero {
   background: var(--black, #121212);
-
   margin: 0 auto;
   max-width: 374.98px;
-  min-width: 320px;
+  /* min-width: 320px; */
   padding-bottom: 80px;
 }
 .hero.container {
@@ -14,8 +13,6 @@
 }
 
 h1 {
-  /* margin-top: 20px; */
-  width: 295px;
   color: #fff;
   font-family: DM Sans;
   font-size: 40px;
@@ -45,7 +42,7 @@ h1 {
   margin: 0;
   height: auto;
 }
-.wrapper {
+.wrapper-list {
   display: flex;
   gap: 40px;
   margin-bottom: 31px;
@@ -106,7 +103,6 @@ h1 {
   h1 {
     font-size: 60px;
     width: 517px;
-    /* margin-top: 44px; */
   }
   .hero-text {
     width: 418px;
@@ -164,7 +160,7 @@ h1 {
     width: 563px;
     margin-top: 0;
   }
-  .wrapper {
+  .wrapper-list {
     max-width: 390px;
     margin-top: 136px;
     margin-bottom: 50px;
