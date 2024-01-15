@@ -1,6 +1,6 @@
-body, html {
-  font-family: 'DM Sans';
-  color:#FFF;
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #fff;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -22,12 +22,26 @@ body, html {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
 }
+button {
+  cursor: pointer;
+  border: none;
+}
+
+section {
+  background-color: var(--black, #121212);
+}
 
 .container {
   max-width: 374.98px;
   padding: 0 20px;
   margin: 0 auto;
-  background-color: var(--black, #121212);
+}
+@media screen and (max-width: 374.98px) {
+  .container {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
 }
 
 @media screen and (min-width: 768px) {
