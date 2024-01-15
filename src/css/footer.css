@@ -1,4 +1,4 @@
-body {}
+
 
 h1,
 h2,
@@ -196,9 +196,9 @@ a {
     gap: 14px;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .first-social-list {}
-}
+} */
 
 @media screen and (min-width: 1278px) {
     .first-social-list {
@@ -332,18 +332,18 @@ a {
     }
 }
 
-@media screen and (min-width: 1278px) {
+/* @media screen and (min-width: 1278px) {
     .forth-block {}
-}
+} */
 
 .first-paragraf {
     min-width: 147px;
     ;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .first-paragraf {}
-}
+} */
 
 @media screen and (min-width: 1278px) {
     .first-paragraf {
