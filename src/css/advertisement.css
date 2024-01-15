@@ -1,6 +1,8 @@
 .advertisement {
   max-width: 375px;
   padding: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 @media screen and (min-width: 768px) {
   .advertisement {
@@ -10,6 +12,14 @@
 @media screen and (min-width: 1280px) {
   .advertisement {
     max-width: 1280px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .advertisement {
+    max-width: 1440px;
+    padding-right: 101px;
+    padding-left: 100px;
   }
 }
 .marquee {
