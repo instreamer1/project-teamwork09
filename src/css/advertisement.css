@@ -1,6 +1,6 @@
 .section-ticker.container {
   padding: 0;
-   min-width: 320px;
+  min-width: 320px;
 }
 .section-ticker {
   max-width: 374.98px;
@@ -67,7 +67,7 @@ marquee {
     line-height: 1.08;
     letter-spacing: -1.18px;
   }
-    .section-ticker {
+  .section-ticker {
     max-width: 1280px;
   }
 }
@@ -75,5 +75,7 @@ marquee {
 @media screen and (min-width: 1440px) {
   .section-ticker {
     max-width: 1440px;
+    padding-right: 101px;
+    padding-left: 101px;
   }
 }
