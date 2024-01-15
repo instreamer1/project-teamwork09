@@ -44,6 +44,8 @@ section {
   }
 }
 
+
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -59,6 +61,7 @@ section {
     padding-left: 100px;
   }
 }
+
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
