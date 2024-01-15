@@ -4,12 +4,15 @@ img {
     display: block;
 }
 
-body {
-    background-color: #121212;
+.signup {
+    min-width: 375px;
+    min-width: 320px;
+    background-color: var(--black, #121212);
 }
 
 .signup-container {
     display: flex;
+    margin: 0 auto;
 
     width: auto;
 }
@@ -23,7 +26,7 @@ body {
 
 @media screen and (min-width:1280px) {
     .signup-container {
-        margin-left: 100px;
+        /* margin-left: 100px; */
         margin-right: 100px;
     }
 }
