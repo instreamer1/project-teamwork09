@@ -1,4 +1,3 @@
-
 .wrapper__block {
   font-family: 'DM Sans', sans-serif;
   line-height: 1.2;
@@ -35,7 +34,7 @@
   .wrapper {
     min-width: 320px;
     padding: 20px 20px 80px;
-    background-image: url(/img/header-images/header-wrapper-bg.png);
+    background-image: url(./img/header-images/header-wrapper-bg.png);
     background-color: #121212;
     background-position: center;
   }
@@ -202,7 +201,7 @@
     top: 0;
     right: 0;
     width: 218px;
-  
+
     padding: 180px 0 0 20px;
     background-color: #bea69e;
   }
@@ -309,6 +308,10 @@
   .header-section__btn {
     display: none;
   }
+  .header-section-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 
   .header-section__icon-burger {
     display: none;
@@ -366,7 +369,6 @@
     padding: 15px 0px;
     margin-right: 14px;
   }
-
 
   .header-section__nav {
     display: flex;
