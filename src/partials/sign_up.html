@@ -1,70 +1,73 @@
 <section class="signup" id="sign-up">
   <div class="container">
     <div class="signup-container">
-    <div class="signup-forms">
-      <h2 class="signup-title">
-        Sign<span class="signup-title-span">Up</span>
-      </h2>
-      <p class="signup-text">
-        Please use the form below to contact us. Enter your name, email, and
-        message and we'll get back to you shortly.
-      </p>
-      <form class="signup-form" name="signup">
-        <input
-          class="signup-input"
-          type="text"
-          name="username"
-          placeholder="Enter your name"
-        />
-        <input
-          class="signup-input"
-          type="text"
-          name="email"
-          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-          placeholder="Enter your email"
-          required
-        />
-        <textarea
-          class="signup-message"
-          id="user-comment"
-          name="user-comment"
-          rows="5"
-          placeholder="Message"
-        ></textarea>
-      </form>
-      <button class="send-btn" type="submit">Send</button>
-      <p class="signup-policy-text">
-        By clicking on “Send” button, you agree to our
-        <span class="signup-policy-span">Privacy Policy</span>,<br />
-        and allow Promodo to use this information for marketing purposes.
-      </p>
-    </div>
-    <div class="signup-pics">
-      <div class="signup-pics-lens">
-        <source
-          media="(min-width: 1280px)"
-          srcset="./img/sign-up/lens1x.png 1x, ./img/sign-up/lens2x.png 2x"
-        />
-        <img
-          class="lens"
-          src="../img/sign-up/lens1x.png"
-          alt="photo-lens"
-          width="163"
-        />
+      <div class="signup-forms">
+        <h2 class="signup-title">
+          Sign<span class="signup-title-span">Up</span>
+        </h2>
+        <p class="signup-text">
+          Please use the form below to contact us. Enter your name, email, and
+          message and we'll get back to you shortly.
+        </p>
+        <form class="signup-form" name="signup">
+          <input
+            class="signup-input"
+            type="text"
+            name="username"
+            placeholder="Enter your name"
+          />
+          <input
+            class="signup-input"
+            type="text"
+            name="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            placeholder="Enter your email"
+            required
+          />
+          <textarea
+            class="signup-message"
+            id="user-comment"
+            name="user-comment"
+            rows="5"
+            placeholder="Message"
+          ></textarea>
+        </form>
+        <button class="send-btn" type="submit">Send</button>
+        <p class="signup-policy-text">
+          By clicking on “Send” button, you agree to our
+          <span class="signup-policy-span">Privacy Policy</span>,<br />
+          and allow Promodo to use this information for marketing purposes.
+        </p>
       </div>
-      <div class="signup-pics-camera">
-        <source
-          media="(min-width: 1280px)"
-          srcset="./img/sign-up/camera1x.png 1x, ./img/sign-up/camera2x.png 2x"
-        />
-        <img
-          class="camera"
-          src="../img/sign-up/camera1x.png"
-          alt="photo-video-camera"
-          width="254"
-        />
+      <div class="signup-pics">
+        <div class="signup-pics-lens">
+          <source
+            media="(min-width: 1280px)"
+            srcset="./img/sign-up/lens1x.png 1x, ./img/sign-up/lens2x.png 2x"
+          />
+          <img
+            class="lens"
+            src="./img/sign-up/lens1x.png"
+            alt="photo-lens"
+            width="163"
+          />
+        </div>
+        <div class="signup-pics-camera">
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/sign-up/camera1x.png 1x,
+              ./img/sign-up/camera2x.png 2x
+            "
+          />
+          <img
+            class="camera"
+            src="./img/sign-up/camera1x.png"
+            alt="photo-video-camera"
+            width="254"
+          />
+        </div>
       </div>
-    </div>
     </div>
   </div>
 </section>
