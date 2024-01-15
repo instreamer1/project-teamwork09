@@ -20,7 +20,7 @@
     />
     
     <script type="module" crossorigin src="/project-teamwork09/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-teamwork09/assets/index-d4060972.css">
+    <link rel="stylesheet" href="/project-teamwork09/assets/index-25338c0a.css">
   </head>
   <body>
     <div class="wrapper">
@@ -230,7 +230,9 @@
     </div>
   </div>
 </section>
-      <section class="advertisement container">
+
+      
+<section class="advertisement container">
   <div class="marquee">
     <div class="marquee__inner">
       <h2 class="marquee__line">
@@ -365,7 +367,6 @@
     </div>
   </div>
 </section>
-
       <section class="our-mentors">
   <div class="mentors-container container">
     <h2 class="mentors" id="our-mentors">
@@ -434,7 +435,78 @@
     </ul>
   </div>
 </section>
-      
+
+      <section class="signup" id="sing-up">
+  <div class="container">
+    <div class="signup-container">
+    <div class="signup-forms">
+      <h2 class="signup-title">
+        Sign<span class="signup-title-span">Up</span>
+      </h2>
+      <p class="signup-text">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <form class="signup-form" name="signup">
+        <input
+          class="signup-input"
+          type="text"
+          name="username"
+          placeholder="Enter your name"
+        />
+        <input
+          class="signup-input"
+          type="text"
+          name="email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          placeholder="Enter your email"
+          required
+        />
+        <textarea
+          class="signup-message"
+          id="user-comment"
+          name="user-comment"
+          rows="5"
+          placeholder="Message"
+        ></textarea>
+      </form>
+      <button class="send-btn" type="submit">Send</button>
+      <p class="signup-policy-text">
+        By clicking on “Send” button, you agree to our
+        <span class="signup-policy-span">Privacy Policy</span>,<br />
+        and allow Promodo to use this information for marketing purposes.
+      </p>
+    </div>
+    <div class="signup-pics">
+      <div class="signup-pics-lens">
+        <source
+          media="(min-width: 1280px)"
+          srcset="/project-teamwork09/assets/lens1x-b6be458b.png 1x, /project-teamwork09/assets/lens2x-91447f0f.png 2x"
+        />
+        <img
+          class="lens"
+          src="../img/sign-up/lens1x.png"
+          alt="photo-lens"
+          width="163"
+        />
+      </div>
+      <div class="signup-pics-camera">
+        <source
+          media="(min-width: 1280px)"
+          srcset="/project-teamwork09/assets/camera1x-b8a14378.png 1x, /project-teamwork09/assets/camera2x-3bb5339c.png 2x"
+        />
+        <img
+          class="camera"
+          src="../img/sign-up/camera1x.png"
+          alt="photo-video-camera"
+          width="254"
+        />
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
       <section class="reviews">
   <div class="container">
     <h2 class="reviews-title">Reviews</h2>
@@ -544,6 +616,7 @@
     </ul>
   </div>
 </section>
+
     </main>
 
     <footer class="footer-1">
@@ -632,7 +705,6 @@
       </div>
   </div>
 </footer>
-
 
     
   </body>
