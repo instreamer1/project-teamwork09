@@ -35,6 +35,7 @@ section {
   max-width: 374.98px;
   padding: 0 20px;
   margin: 0 auto;
+  background-color: var(--black, #121212);
 }
 @media screen and (max-width: 374.98px) {
   .container {

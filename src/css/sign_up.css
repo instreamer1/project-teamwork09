@@ -5,9 +5,10 @@ img {
 }
 
 .signup {
-    min-width: 375px;
+    max-width: 375px;
     min-width: 320px;
-    background-color: var(--black, #121212);
+    margin: 0 auto;
+    
 }
 
 .signup-container {
@@ -18,6 +19,10 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+    .signup {
+    max-width: 768px;
+    
+}
     .signup-container {
         margin-left: 32px;
         margin-right: 256px;
@@ -25,6 +30,10 @@ img {
 }
 
 @media screen and (min-width:1280px) {
+       .signup {
+    max-width: 1280px;
+    
+}
     .signup-container {
         /* margin-left: 100px; */
         margin-right: 100px;
@@ -38,6 +47,10 @@ img {
 }
 
 @media screen and (min-width: 1440px) {
+       .signup {
+    max-width: 1440px;
+    
+}
     .signup-forms {
         margin-right: 200px;
     }
