@@ -31,39 +31,63 @@ a {
 }
 
 .container {
+    min-width: 335px;
+    background-image: url(../header-wrapper-bg.png);
+    background-color: #121212;
+    background-position: center;
 
-    margin: auto;
-
-    max-width: 375px;
-    height: 535px;
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 375px) and (max-width: 767.98px) {
     .container {
-        max-width: 768px;
-        height: 331px;
-
-
+        max-width: 375px;
+        background-image: url(../header-wrapper-bg.png);
+        background-color: #121212;
+        background-position: center;
+        margin: 0 auto;
     }
 }
 
-@media screen and (min-width: 1278px) {
-    .container {}
+@media screen and (min-width: 768px) and (max-width: 1279.98px) {
+    .container {
+        max-width: 768px;
+        background-image: url(../header-wrapper-bg.png);
+        background-color: #121212;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        background-image: url(../header-wrapper-bg.png);
+        background-color: #121212;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439.98px) {
+    .container {
+        max-width: 1280px;
+        background-color: #121212;
+        margin: 0 auto;
+    }
 }
 
 .footer-container {
-    margin: 40px 20px 20px;
+    padding: 40px 20px 20px;
     margin: auto;
-    /* margin-left: auto;
-    margin-right: auto; */
     max-width: 375px;
     height: 535px;
+
+    /* background-color: #121212;
+    background-position: center; */
 }
 
 @media screen and (min-width: 768px) {
     .footer-container {
-        margin: 50px 32px 25px;
+        padding: 50px 32px 25px;
         max-width: 768px;
         height: 331px;
 
@@ -72,9 +96,8 @@ a {
 
 @media screen and (min-width: 1278px) {
     .footer-container {
-        margin: 0px 100px 25px;
+        padding: 0px 100px 25px;
         max-width: 1440px;
-
 
 
     }
@@ -223,7 +246,7 @@ a {
     /* align-items: flex-start; */
     margin-bottom: 40px;
     max-width: 335px;
-    width: 100%;
+
     height: 60px;
 }
 
@@ -253,7 +276,7 @@ a {
     height: 60px;
     border-radius: 12px;
     width: 267px;
-    justify-content: center;
+
 
 }
 
