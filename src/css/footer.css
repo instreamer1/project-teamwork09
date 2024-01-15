@@ -93,7 +93,7 @@ a {
 }
 @media screen and (min-width: 1278px) {
   .footer-container {
-    padding: 0px 100px 25px;
+    padding: 0px 25px;
     max-width: 1440px;
   }
 }
@@ -146,6 +146,9 @@ a {
     height: 43px;
     gap: 10px;
     margin-right: 240px;
+  }
+  .container-form {
+    margin-left: 50px;
   }
 }
 .number-paragraf {
