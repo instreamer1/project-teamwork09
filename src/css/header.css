@@ -1,3 +1,6 @@
+.wrapper {
+ max-width: 375px;
+}
 .wrapper__block {
   font-family: 'DM Sans', sans-serif;
   line-height: 1.2;
@@ -26,7 +29,7 @@
 
 @media screen and (max-width: 374.98px) {
   .container {
-    max-width: 320px;
+  
     margin: 0 auto;
     padding: 0 16px;
   }
