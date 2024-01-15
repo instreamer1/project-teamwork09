@@ -24,12 +24,16 @@ a {
   text-decoration: none;
 }
 
+.footer-1 {
+   padding-bottom: 20px;
+   height: 460px;
+}
 .container {
   min-width: 335px;
   background-image: url(../header-wrapper-bg.png);
   background-color: #121212;
   background-position: center;
-  padding-bottom: 20px;
+  padding-bottom: 0;
 }
 @media screen and (min-width: 375px) and (max-width: 767.98px) {
   .container {
@@ -66,7 +70,7 @@ a {
 .footer-container {
   margin: auto;
   max-width: 375px;
-  height: 535px;
+  /* height: 535px; */
 
   /* background-color: #121212;
     background-position: center; */
@@ -93,7 +97,7 @@ a {
 }
 @media screen and (min-width: 1278px) {
   .footer-container {
-    padding: 0px 25px;
+    padding: 0 25px;
     max-width: 1440px;
   }
 }
@@ -119,7 +123,7 @@ a {
   justify-content: space-between;
   align-items: flex-start;
   flex-shrink: 0;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
 @media screen and (min-width: 768px) {
