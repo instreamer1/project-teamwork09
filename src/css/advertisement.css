@@ -1,10 +1,99 @@
+.advertisement {
+  max-width: 375px;
+  padding: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+@media screen and (min-width: 768px) {
+  .advertisement {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .advertisement {
+    max-width: 1280px;
+  }
+}
 
+@media screen and (min-width: 1440px) {
+  .advertisement {
+    max-width: 1440px;
+    padding-right: 101px;
+    padding-left: 100px;
+  }
+}
+.marquee {
+  overflow: hidden;
+}
 
+@keyframes marqueeLine {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee__inner {
+  display: flex;
+}
+
+.marquee__line {
+  color: #bea69e;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 20px 10px;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: marqueeLine;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  transition: transform linear;
+}
+.ticker-white {
+  color: #fff;
+}
+@keyframes marqueeLine {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+@media screen and (min-width: 768px) {
+  .marquee__line {
+    font-size: 40px;
+    line-height: 1.25;
+    letter-spacing: -0.8px;
+    padding: 24px 10px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .marquee__line {
+    font-size: 59px;
+    line-height: 1.08;
+    letter-spacing: -1.18px;
+  }
+}
+=======
 .section-ticker.container {
   padding: 0;
+  min-width: 320px;
 }
 .section-ticker {
-  max-width: 375px;
+  max-width: 374.98px;
 }
 @media screen and (min-width: 768px) {
   .section-ticker {
@@ -68,7 +157,7 @@ marquee {
     line-height: 1.08;
     letter-spacing: -1.18px;
   }
-    .section-ticker {
+  .section-ticker {
     max-width: 1280px;
   }
 }
@@ -76,5 +165,11 @@ marquee {
 @media screen and (min-width: 1440px) {
   .section-ticker {
     max-width: 1440px;
+    padding-right: 101px;
+    padding-left: 101px;
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 318577729906ae053df89817c437b7aab696d38a
