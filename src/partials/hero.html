@@ -83,6 +83,41 @@
     </div>
     <div class="wrapper-photograph">
       <picture class="hero-picture">
+        <!-- Desktop screen -->
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ../img/img-hero/photograph/rectangledesk@1x_ta.png 1x,
+            ../img/img-hero/photograph/rectangledesk@2x_ta.png 2x
+          "
+        />
+
+        <!-- Tablet screen -->
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ../img/img-hero/photograph/rectangletab@1x_ta.png 1x,
+            ../img/img-hero/photograph/rectangletab@2x_ta.png 2x
+          "
+        />
+        <!-- Mobile screen -->
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ../img/img-hero/photograph/rectanglemob@1x_ta.png 1x,
+            ../img/img-hero/photograph/rectanglemob@2x_ta.png 2x
+          "
+        />
+
+        <img
+          src="./img/img-hero/photograph.png"
+          width="259"
+          alt="Photograph photo"
+          loading="lazy"
+        />
+      </picture>
+
+      <!-- <picture class="hero-picture">
         <img
           class="student-img-photograph"
           srcset="
@@ -94,7 +129,7 @@
           alt="Photograph photo"
           loading="lazy"
         />
-      </picture>
+      </picture> -->
     </div>
   </div>
 </section>
