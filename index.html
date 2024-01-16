@@ -216,18 +216,57 @@
     </div>
     <div class="wrapper-photograph">
       <picture class="hero-picture">
+        <!-- Desktop screen -->
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ../img/img-hero/photograph/rectangledesk@1x_ta.png 1x,
+            ../img/img-hero/photograph/rectangledesk@2x_ta.png 2x
+          "
+        />
+
+        <!-- Tablet screen -->
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ../img/img-hero/photograph/rectangletab@1x_ta.png 1x,
+            ../img/img-hero/photograph/rectangletab@2x_ta.png 2x
+          "
+        />
+        <!-- Mobile screen -->
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ../img/img-hero/photograph/rectanglemob@1x_ta.png 1x,
+            ../img/img-hero/photograph/rectanglemob@2x_ta.png 2x
+          "
+        />
+
         <img
-          class="student-img-photograph"
-          srcset="/project-teamwork09/assets/photograph-446bb957.png 1x, /project-teamwork09/assets/photograph@2x-94106b24.png 2x"
           src="/project-teamwork09/assets/photograph-446bb957.png"
           width="259"
           alt="Photograph photo"
           loading="lazy"
         />
       </picture>
+
+      <!-- <picture class="hero-picture">
+        <img
+          class="student-img-photograph"
+          srcset="
+            ./img/img-hero/photograph.png    1x,
+            ./img/img-hero/photograph@2x.png 2x
+          "
+          src="./img/img-hero/photograph.png"
+          width="259"
+          alt="Photograph photo"
+          loading="lazy"
+        />
+      </picture> -->
     </div>
   </div>
 </section>
+
       <section class="advertisement container">
   <div class="marquee">
     <div class="marquee__inner">
