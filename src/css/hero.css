@@ -14,7 +14,7 @@
 }
 
 h1 {
-  /* margin-top: 20px; */
+  margin-top: 20px;
   width: 295px;
   color: #fff;
   font-family: DM Sans;
@@ -106,7 +106,7 @@ h1 {
   h1 {
     font-size: 60px;
     width: 517px;
-    /* margin-top: 44px; */
+    margin-top: 44px;
   }
   .hero-text {
     width: 418px;

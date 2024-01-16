@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 (() => {
   const refs = {
     openMenuBtn: document.querySelector("[data-menu-open]"),
@@ -15,4 +12,3 @@
     refs.menu.classList.toggle("is-hidden");
   }
 })();
->>>>>>> 318577729906ae053df89817c437b7aab696d38a

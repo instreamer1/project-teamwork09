@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 318577729906ae053df89817c437b7aab696d38a
 .wrapper__block {
   font-family: 'DM Sans', sans-serif;
   line-height: 1.2;
@@ -36,11 +32,7 @@
   }
 
   .wrapper {
-<<<<<<< HEAD
     min-width: 335px;
-=======
-    min-width: 320px;
->>>>>>> 318577729906ae053df89817c437b7aab696d38a
     padding: 20px 20px 80px;
     background-image: url(/img/header-images/header-wrapper-bg.png);
     background-color: #121212;
@@ -143,11 +135,7 @@
   .wrapper {
     max-width: 375px;
     padding: 20px 20px 80px;
-<<<<<<< HEAD
     background-image: url(../img/header-images/header-wrapper-bg.png);
-=======
-    background-image: url(./img/header/header-wrapper-bg.png);
->>>>>>> 318577729906ae053df89817c437b7aab696d38a
     background-color: #121212;
     background-position: center;
     margin: 0 auto;
@@ -378,10 +366,6 @@
     margin-right: 14px;
   }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 318577729906ae053df89817c437b7aab696d38a
   .header-section__nav {
     display: flex;
     justify-content: space-between;
@@ -610,9 +594,3 @@
     color: #bea69e;
   }
 }
-<<<<<<< HEAD
-=======
-.wrapper {
-  background-image: url(./img/header/header-wrapper-bg.png);
-}
->>>>>>> 318577729906ae053df89817c437b7aab696d38a
