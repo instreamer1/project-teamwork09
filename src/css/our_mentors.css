@@ -2,12 +2,18 @@
   max-width: 374.98px;
   min-width: 320px;
   margin: 0 auto;
-}
-.mentors-container {
-  /* Phone */
   padding-bottom: 80px;
 }
-
+@media screen and (min-width: 768px) {
+  .our-mentors {
+    padding-bottom: 100px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .our-mentors {
+    padding-bottom: 150px;
+  }
+}
 .mentors {
   color: #fff;
   font-family: DM Sans;
@@ -42,6 +48,8 @@
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 16px;
+  width: 180px;
+  height: 180px;
 }
 
 .mentor-name {
@@ -54,8 +62,6 @@
   margin-bottom: 4px;
 }
 
-
-
 .mentor-exp {
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
@@ -65,7 +71,6 @@
   line-height: 1.33;
   letter-spacing: -0.02em;
 }
-
 
 @media screen and (min-width: 768px) {
   .our-mentors {
