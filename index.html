@@ -20,7 +20,7 @@
     />
     
     <script type="module" crossorigin src="/project-teamwork09/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-teamwork09/assets/index-e796a9ae.css">
+    <link rel="stylesheet" href="/project-teamwork09/assets/index-8e4d4e27.css">
   </head>
   <body>
     <div class="wrapper">
@@ -37,7 +37,7 @@
           </a>
           <div class="header-section-block">
             <div class="header-section__block-camera">
-              <a href="#sign-up" class="header-section__link-camera">
+              <a href="" class="header-section__link-camera">
                 <svg class="header-section__icon-camera" width="16" height="16">
                   <use
                     href="/project-teamwork09/assets/header-icons-2efea7ac.svg#header-camera-mobile-icon"
@@ -61,12 +61,12 @@
 
           <ul class="header-section__list">
             <li class="header-section__list-iten">
-              <a href="#about-us" class="header-section__list-link"
+              <a href="#reclamma" class="header-section__list-link"
                 >About us
               </a>
             </li>
             <li class="header-section__list-iten">
-              <a href="#our-courses" class="header-section__list-link"
+              <a href="#school" class="header-section__list-link"
                 >Our courses
               </a>
             </li>
@@ -76,12 +76,10 @@
               </a>
             </li>
             <li class="header-section__list-iten">
-              <a href="#reviews" class="header-section__list-link">Reviews</a>
+              <a href="#feedback" class="header-section__list-link">Reviews</a>
             </li>
             <li class="header-section__list-iten">
-              <a href="#contacts" class="header-section__list-link"
-                >contacts
-              </a>
+              <a href="#ancor" class="header-section__list-link">contacts </a>
             </li>
           </ul>
         </nav>
@@ -246,7 +244,7 @@
     </div>
   </div>
 </section>
-      <section class="about-us">
+      <section class="about-us" id="reclamma">
   <div class="container">
     <h2 class="about-us-title">About <span class="title-gray">Us</span></h2>
     <div class="wrapper-picture-text">
@@ -304,7 +302,8 @@
     </div>
   </div>
 </section>
-      <section class="our-courses">
+
+      <section class="our-courses" id="school">
   <div class="container">
     <div class="header-wrap">
       <h2 class="our-courses-header">
@@ -472,11 +471,11 @@
           ></textarea>
         </form>
         <button class="send-btn" type="submit">Send</button>
-        <p class="signup-policy-text">
+        <span class="signup-policy-text">
           By clicking on “Send” button, you agree to our
-          <span class="signup-policy-span">Privacy Policy</span>,<br />
+          <a class="signup-policy-span" href="">Privacy Policy,</a><br />
           and allow Promodo to use this information for marketing purposes.
-        </p>
+        </span>
       </div>
       <div class="signup-pics">
         <div class="signup-pics-lens">
@@ -508,7 +507,7 @@
   </div>
 </section>
 
-      <section class="reviews">
+      <section class="reviews" id="feedback">
   <div class="container">
     <h2 class="reviews-title">Reviews</h2>
     <ul class="reviews-list">
@@ -620,92 +619,90 @@
 
     </main>
 
-    <footer class="footer-1">
-  <div class="container">
-    <div class="footer-container">
-      <div class="footer-wrap">
-        <div class="logo-container">
-          <a class="footer-logo-type" href="./index.html">
-            <svg class="" width="127" height="20">
-              <use
-                href="/project-teamwork09/assets/header-icons-2efea7ac.svg#header-icon-logo"
-              ></use>
-            </svg>
-          </a>
-        </div>
+    <footer class="footer-1 container">
+  <div class="footer-container">
+    <div class="footer-wrap">
+      <div class="logo-container">
+        <a class="footer-logo-type" href="./index.html">
+          <svg class="" width="127" height="20">
+            <use
+              href="/project-teamwork09/assets/header-icons-2efea7ac.svg#header-icon-logo"
+            ></use>
+          </svg>
+        </a>
+      </div>
 
-        <div class="contacts-container">
-          <p class="number-paragraf">
-            <span class="tel-contact"> UA: </span>
-            <a class="tel-contact" href="tel:+380665438912">+38 066 543 8912</a>
-          </p>
-          <p class="city-place">Ukraine, Kyiv</p>
-        </div>
+      <div class="contacts-container" id="ancor">
+        <p class="number-paragraf">
+          <span class="tel-contact"> UA: </span>
+          <a class="tel-contact" href="tel:+380665438912">+38 066 543 8912</a>
+        </p>
+        <p class="city-place">Ukraine, Kyiv</p>
       </div>
-      <div class="social-container">
-        <ul class="first-social-list">
-          <li class="socials-link">
-            <a class="socials" href="https://www.instagram.com/goitclub/"
-              >Instagram</a
-            >
-          </li>
-          <li class="socials-link">
-            <a class="socials" href="https://www.facebook.com/goITclub/"
-              >Facebook</a
-            >
-          </li>
-          <li class="socials-link">
-            <a class="socials" href="https://www.youtube.com/c/GoIT">Youtube</a>
-          </li>
-        </ul>
-        <ul class="second-social-list">
-          <li class="socials-link">
-            <a class="socials" href="">About us</a>
-          </li>
-          <li class="socials-link">
-            <a class="socials" href=""> Our courses</a>
-          </li>
-          <li class="socials-link">
-            <a class="socials" href="">Our mentors</a>
-          </li>
-          <li class="socials-link">
-            <a class="socials" href="">Reviews</a>
-          </li>
-          <li class="socials-link">
-            <a class="socials" href="#+380665438912">Contacts</a>
-          </li>
-        </ul>
-      </div>
-      <div class="container-form">
-        <form class="place-post" action="form">
-          <label class="sticker" for="e-mail">
-            <input
-              class="e-mail"
-              name="post"
-              type="email"
-              id="e-mail"
-              placeholder="E-mail"
-            />
-          </label>
-          <button class="go-button" type="submit">
-            <p class="go-text">Go</p>
-          </button>
-        </form>
-      </div>
-      
     </div>
-    <div class="forth-block">
-        <p class="first-paragraf">
-          Privacy Policy <br />
-          Public Offering Agreement
-        </p>
-        <p class="second-paragraf">
-          2023 Focus Frame <br />
-          © All rights reserved
-        </p>
-      </div>
+    <div class="social-container">
+      <ul class="first-social-list">
+        <li class="socials-link">
+          <a class="socials" href="https://www.instagram.com/goitclub/"
+            >Instagram</a
+          >
+        </li>
+        <li class="socials-link">
+          <a class="socials" href="https://www.facebook.com/goITclub/"
+            >Facebook</a
+          >
+        </li>
+        <li class="socials-link">
+          <a class="socials" href="https://www.youtube.com/c/GoIT">Youtube</a>
+        </li>
+      </ul>
+      <ul class="second-social-list">
+        <li class="socials-link">
+          <a class="socials" href="">About us</a>
+        </li>
+        <li class="socials-link">
+          <a class="socials" href=""> Our courses</a>
+        </li>
+        <li class="socials-link">
+          <a class="socials" href="">Our mentors</a>
+        </li>
+        <li class="socials-link">
+          <a class="socials" href="">Reviews</a>
+        </li>
+        <li class="socials-link">
+          <a class="socials" href="#+380665438912">Contacts</a>
+        </li>
+      </ul>
+    </div>
+    <div class="container-form">
+      <form class="place-post" action="form">
+        <label class="sticker" for="e-mail">
+          <input
+            class="e-mail"
+            name="post"
+            type="email"
+            id="e-mail"
+            placeholder="Enter your email"
+          />
+        </label>
+        <button class="go-button" type="submit">
+          <p class="go-text">Go</p>
+        </button>
+      </form>
+    </div>
+  </div>
+  <div class="forth-block">
+    <p class="first-paragraf">
+      Privacy Policy <br />
+      Public Offering Agreement
+    </p>
+    <p class="second-paragraf">
+      2023 Focus Frame <br />
+      © All rights reserved
+    </p>
   </div>
 </footer>
+
 
     
   </body>
