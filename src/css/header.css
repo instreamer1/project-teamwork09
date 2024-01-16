@@ -3,6 +3,9 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.wrapper {
+  background-image: url(./img/header/header-wrapper-bg.png);
+}
 @media screen and (min-width: 768px) {
   .wrapper {
     padding-bottom: 40px;
@@ -322,7 +325,7 @@
   .header-section__btn {
     display: none;
   }
-  .header-section-container {
+  .header-section-container.container {
     padding-left: 50px;
     padding-right: 50px;
   }
@@ -611,7 +614,4 @@
   .header-section__list-link:focus {
     color: #bea69e;
   }
-}
-.wrapper {
-  background-image: url(./img/header/header-wrapper-bg.png);
 }
