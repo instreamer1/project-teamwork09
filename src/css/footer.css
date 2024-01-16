@@ -1,4 +1,3 @@
-
 ul {
   margin: 0;
   padding: 0;
@@ -12,34 +11,60 @@ img {
 a {
   text-decoration: none;
 }
+.container {
+  max-width: 374.98px;
+  padding: 0 20px;
+  margin: 0 auto;
+  background-color: var(--black, #121212);
+}
+@media screen and (max-width: 374.98px) {
+  .container {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
 
 .footer-1 {
-   padding-bottom: 20px;
-   height: 460px;
-    background-image: url(../img/footer/header-wrapper-bg.png);
-    background-position: center;
-}
-.container {
-  min-width: 335px;
- 
+  min-width: 320px;
   background-color: #121212;
+  background-image: url(../img/footer/header-wrapper-bg.png);
   background-position: center;
-  padding-bottom: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
-@media screen and (min-width: 375px) and (max-width: 767.98px) {
+@media screen and (min-width: 768px) {
   .footer-1 {
- background-image: url(../img/footer/header-wrapper-bg.png);
-  }
-  .container {
-    max-width: 375px;
-    background-color: #121212;
-    background-position: center;
-    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 25px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1279.98px) {
-   .footer-1 {
- background-image: url(../img/footer/header-wrapper-bg.png);
+  .footer-1 {
+    background-image: url(../img/footer/header-wrapper-bg.png);
   }
   .container {
     max-width: 768px;
@@ -48,8 +73,8 @@ a {
   }
 }
 @media screen and (min-width: 1440px) {
-   .footer-1 {
- background-image: url(../img/footer/header-wrapper-bg.png);
+  .footer-1 {
+    background-image: url(../img/footer/header-wrapper-bg.png);
   }
   .container {
     max-width: 1440px;
@@ -81,7 +106,7 @@ a {
   .footer-container {
     padding: 50px 32px 25px;
     max-width: 768px;
-    height: 331px;
+    /height: 331px;
     padding-right: 0;
     padding-left: 0;
   }
@@ -258,7 +283,7 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
-
+  padding-left: 18px;
   height: 60px;
   border-radius: 12px;
   width: 267px;
@@ -301,7 +326,6 @@ a {
   line-height: 16px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
   .forth-block {

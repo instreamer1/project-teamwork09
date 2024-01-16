@@ -1,5 +1,17 @@
 .wrapper {
- max-width: 375px;
+  max-width: 375px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .wrapper {
+    padding-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .wrapper {
+    padding-bottom: 80px;
+  }
 }
 .wrapper__block {
   font-family: 'DM Sans', sans-serif;
@@ -29,7 +41,6 @@
 
 @media screen and (max-width: 374.98px) {
   .container {
-  
     margin: 0 auto;
     padding: 0 16px;
   }
@@ -137,7 +148,7 @@
 @media screen and (min-width: 375px) and (max-width: 767.98px) {
   .wrapper {
     max-width: 375px;
-    padding: 20px 20px 80px;
+
     background-image: url(./img/header/header-wrapper-bg.png);
     background-color: #121212;
     background-position: center;
@@ -328,7 +339,7 @@
 @media screen and (min-width: 768px) and (max-width: 1279.98px) {
   .wrapper {
     max-width: 768px;
-    padding: 20px 32px 100px;
+
     background-image: url(../img/header-images/header-wrapper-bg.png);
     background-color: #121212;
     margin: 0 auto;
@@ -453,7 +464,7 @@
 @media screen and (min-width: 1280px) and (max-width: 1439.98px) {
   .wrapper {
     max-width: 1280px;
-    padding: 20px 100px 150px;
+
     background-image: url(../img/header-images/header-wrapper-bg.png);
     background-color: #121212;
     margin: 0 auto;
@@ -532,7 +543,7 @@
 @media screen and (min-width: 1440px) {
   .wrapper {
     max-width: 1440px;
-    padding: 20px 100px 150px;
+
     background-image: url(../img/header-images/header-wrapper-bg.png);
     background-color: #121212;
     margin: 0 auto;

@@ -19,6 +19,18 @@
 @media screen and (min-width: 1440px) {
   .advertisement {
     max-width: 1440px;
+  }
+}
+.advertisement.container {
+  padding: 0;
+}
+@media screen and (min-width: 1280px) {
+  .advertisement.container {
+    padding: 0 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .advertisement.container {
     padding-right: 101px;
     padding-left: 100px;
   }

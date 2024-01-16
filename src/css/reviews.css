@@ -1,6 +1,6 @@
 .reviews {
   max-width: 374.98px;
-   min-width: 320px;
+  min-width: 320px;
   min-height: 396px;
   padding-top: 0;
   padding-bottom: 80px;
@@ -8,7 +8,10 @@
   /* background-color: var(--black, #121212); */
   padding-bottom: 80px;
 }
-
+.reviews-user-img {
+  width: 56px;
+  height: 56px;
+}
 .reviews-title {
   color: #fff;
   font-size: 48px;
@@ -106,7 +109,7 @@
 @media screen and (min-width: 1280px) {
   .reviews {
     max-width: 1280px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
   }
   .reviews-list {
     display: flex;
