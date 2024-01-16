@@ -92,10 +92,6 @@ a {
 .footer-container {
   margin: auto;
   max-width: 375px;
-  /* height: 535px; */
-
-  /* background-color: #121212;
-    background-position: center; */
 }
 
 .logo-container {
@@ -123,14 +119,6 @@ a {
     max-width: 1440px;
   }
 }
-/* .container-lines {
-    
-    background-image: url(../Line\ \(1\).png);
-    background-repeat: space;
-    background-position-x: 50px;
-    
-
-} */
 
 .footer-logo-type {
   width: 123px;
@@ -145,7 +133,6 @@ a {
   justify-content: space-between;
   align-items: flex-start;
   flex-shrink: 0;
-  /* margin-bottom: 40px; */
 }
 
 @media screen and (min-width: 768px) {
@@ -171,10 +158,7 @@ a {
     width: 143px;
     height: 43px;
     gap: 10px;
-    margin-right: 240px;
-  }
-  .container-form {
-    margin-left: 50px;
+    margin-right: 220px;
   }
 }
 .number-paragraf {
@@ -197,7 +181,6 @@ a {
   display: inline-flex;
   align-items: flex-start;
   gap: 40px;
-  /* margin-right: 191px; */
   width: 214px;
   margin-bottom: 75px;
 }
@@ -206,6 +189,7 @@ a {
   .social-container {
     width: 274px;
     gap: 100px;
+    margin-right: 135px;
   }
 }
 .first-social-list {
@@ -247,17 +231,9 @@ a {
 
 .socials {
   color: #fff;
-  /* font-family: DM Sans;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-transform: uppercase; */
 }
 .container-form {
   display: inline-block;
-  /* display: flex; */
-  /* align-items: flex-start; */
   margin-bottom: 40px;
   max-width: 335px;
 
@@ -269,11 +245,6 @@ a {
 }
 .sticker {
   height: 60px;
-  /* width: 216px;
-    
-    flex-shrink: 0;
-    border-radius: 12px;
-    background: #FFF; */
 }
 .e-mail {
   box-sizing: border-box;
@@ -306,17 +277,16 @@ a {
   margin-left: 8px;
   border-radius: 12px;
   background: #1d1d1d;
-}
-.go-text {
-  color: #fff;
+    color: #fff;
   text-align: center;
   font-family: DM Sans;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
-  /* 24px */
+  margin-left: 8px;
 }
+
 .forth-block {
   color: #ffffff;
   font-family: DM Sans;
@@ -362,5 +332,11 @@ a {
 @media screen and (min-width: 1278px) {
   .second-paragraf {
     min-width: 134px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .social-container {
+    margin-right: 285px;
   }
 }
