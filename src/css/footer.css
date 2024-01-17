@@ -277,7 +277,7 @@ a {
   margin-left: 8px;
   border-radius: 12px;
   background: #1d1d1d;
-    color: #fff;
+  color: #fff;
   text-align: center;
   font-family: DM Sans;
   font-size: 20px;
@@ -338,5 +338,27 @@ a {
 @media screen and (min-width: 1440px) {
   .social-container {
     margin-right: 285px;
+  }
+}
+
+.grid-footer {
+  background-image: url(../img/footer/grid-footer-mob.png);
+}
+
+@media screen and (min-width: 768px) {
+  .grid-footer {
+    background-image: url(../img/footer/grid-footer-tab.png);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .grid-footer {
+    background-image: url(../img/footer/grid-footer-desk.png);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .grid-footer {
+    background-image: url(../img/footer/grid-footer-desk1440.png);
   }
 }

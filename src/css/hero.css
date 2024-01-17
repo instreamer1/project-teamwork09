@@ -103,8 +103,8 @@ h1 {
   }
 
   .hero.container {
-  padding-top: 64px;
-}
+    padding-top: 64px;
+  }
 
   h1 {
     font-size: 60px;
@@ -241,5 +241,27 @@ h1 {
     display: flex;
     justify-content: flex-end;
     margin-top: auto;
+  }
+}
+
+.grid {
+  background-image: url(../img/grid-header-hero/grid-header-mob.png);
+}
+
+@media screen and (min-width: 768px) {
+  .grid {
+    background-image: url(../img/grid-header-hero/grid-header-tab.png);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .grid {
+    background-image: url(../img/grid-header-hero/grid-header-desk.png);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .grid {
+    background-image: url(../img/grid-header-hero/grid-header-desk1440.png);
   }
 }
