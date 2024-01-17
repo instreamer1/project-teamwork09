@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-star" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="m16 4 3.708 7.899L28 13.173l-6 6.145 1.416 8.681L16 23.898l-7.416 4.101L10 19.318l-6-6.145 8.292-1.274L16 4z"/>
+    </symbol>
+  </defs>
+</svg>
