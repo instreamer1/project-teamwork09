@@ -5,6 +5,10 @@
   min-width: 320px;
   padding-bottom: 80px;
 }
+.grid {
+  background-image: url(../img/img-hero/graphicherogridmob.png); 
+}
+
 .hero.container {
   border-radius: 30px;
   background: #1d1d1d;
@@ -101,6 +105,9 @@ h1 {
     max-width: 768px;
     padding-bottom: 100px;
   }
+  .grid {
+  background-image: url(../img/img-hero/graphicherogrid-tab.png); 
+}
 
   .hero.container {
   padding-top: 64px;
@@ -152,6 +159,9 @@ h1 {
     max-width: 1280px;
     padding-bottom: 150px;
   }
+  .grid {
+  background-image: url(../img/img-hero/graphicherogriddesk.png); 
+}
   .hero.container {
     margin-right: 100px;
     margin-left: 100px;
@@ -181,6 +191,9 @@ h1 {
   .hero {
     max-width: 1440px;
   }
+  .grid {
+  background-image: url(../img/img-hero/graphicherogriddesktop.png); 
+}
   .hero.container {
     padding-right: 100px;
   }

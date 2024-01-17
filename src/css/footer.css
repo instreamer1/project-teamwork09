@@ -1,21 +1,14 @@
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-img {
-  display: block;
-}
-
-a {
-  text-decoration: none;
-}
 .container {
   max-width: 374.98px;
   padding: 0 20px;
   margin: 0 auto;
   background-color: var(--black, #121212);
+}
+
+.footer-1.container {
+  margin-left: 0;
+  margin-right: 0;
+  margin: 0 auto;
 }
 @media screen and (max-width: 374.98px) {
   .container {
@@ -50,11 +43,12 @@ a {
 .footer-1 {
   min-width: 320px;
   background-color: #121212;
-  background-image: url(../img/footer/header-wrapper-bg.png);
+  background-image: url(../img/footer/graphicgrid-mob.png);
   background-position: center;
   padding-top: 40px;
   padding-bottom: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
   .footer-1 {
@@ -64,17 +58,18 @@ a {
 }
 @media screen and (min-width: 768px) and (max-width: 1279.98px) {
   .footer-1 {
-    background-image: url(../img/footer/header-wrapper-bg.png);
+    background-image: url(../img/footer/graphicgrid-tab.png);
   }
   .container {
     max-width: 768px;
     background-color: #121212;
     margin: 0 auto;
+    
   }
 }
 @media screen and (min-width: 1440px) {
   .footer-1 {
-    background-image: url(../img/footer/header-wrapper-bg.png);
+    background-image: url(../img/footer/graphicgrid-desk.png);
   }
   .container {
     max-width: 1440px;
@@ -83,6 +78,9 @@ a {
   }
 }
 @media screen and (min-width: 1280px) and (max-width: 1439.98px) {
+    .footer-1 {
+    background-image: url(../img/footer/graphicgrid-desk.png);
+  }
   .container {
     max-width: 1280px;
     background-color: #121212;
@@ -257,7 +255,7 @@ a {
   padding-left: 18px;
   height: 60px;
   border-radius: 12px;
-  width: 267px;
+  width: 100%;
 }
 @media screen and (min-width: 768px) {
   .e-mail {
