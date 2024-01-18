@@ -95,6 +95,7 @@ h1 {
 
 .students-item {
   position: absolute;
+  width: 44px;
 }
 
 .students-item:nth-child(1) {
