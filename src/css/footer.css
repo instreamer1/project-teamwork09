@@ -2,7 +2,6 @@
   max-width: 374.98px;
   padding: 0 20px;
   margin: 0 auto;
-  background-color: var(--black, #121212);
 }
 
 .footer-1.container {
@@ -10,9 +9,13 @@
   margin-right: 0;
   margin: 0 auto;
 }
+
+.footer-wrap {
+  margin-bottom: 58px;
+}
 @media screen and (max-width: 374.98px) {
   .container {
-    max-width: 320px;
+    max-width: 374.98px;
     margin: 0 auto;
     padding: 0 20px;
   }
@@ -24,6 +27,9 @@
     padding-right: 32px;
     padding-left: 32px;
   }
+  .footer-wrap {
+    margin-right: 40px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -31,6 +37,9 @@
     max-width: 1280px;
     padding-right: 100px;
     padding-left: 100px;
+  }
+  .footer-wrap {
+    margin-right: 285px;
   }
 }
 
@@ -64,7 +73,6 @@
     max-width: 768px;
     background-color: #121212;
     margin: 0 auto;
-    
   }
 }
 @media screen and (min-width: 1440px) {
@@ -78,7 +86,7 @@
   }
 }
 @media screen and (min-width: 1280px) and (max-width: 1439.98px) {
-    .footer-1 {
+  .footer-1 {
     background-image: url(../img/footer/graphicgrid-desk.png);
   }
   .container {
@@ -100,7 +108,7 @@
   .footer-container {
     padding: 50px 32px 25px;
     max-width: 768px;
-    /height: 331px;
+    /* height: 331px; */
     padding-right: 0;
     padding-left: 0;
   }
@@ -113,7 +121,7 @@
 }
 @media screen and (min-width: 1278px) {
   .footer-container {
-    padding: 0 25px;
+    /* padding: 0 25px; */
     max-width: 1440px;
   }
 }
@@ -148,15 +156,14 @@
 @media screen and (min-width: 768px) {
   .contacts-container {
     margin-bottom: 0;
-    margin-right: 57px;
+    /* margin-right: 57px; */
   }
 }
 @media screen and (min-width: 1278px) {
   .contacts-container {
-    width: 143px;
     height: 43px;
     gap: 10px;
-    margin-right: 220px;
+    /* margin-right: 244px; */
   }
 }
 .number-paragraf {
@@ -233,16 +240,18 @@
 .container-form {
   display: inline-block;
   margin-bottom: 40px;
-  max-width: 335px;
-
+  width: 100%;
   height: 60px;
 }
 
 .place-post {
   display: flex;
+  justify-content: space-between;
+  /* width: 100%; */
 }
 .sticker {
   height: 60px;
+  width: 100%;
 }
 .e-mail {
   box-sizing: border-box;
@@ -257,16 +266,11 @@
   border-radius: 12px;
   width: 100%;
 }
-@media screen and (min-width: 768px) {
-  .e-mail {
-    width: 178px;
-  }
-}
 
 @media screen and (min-width: 1278px) {
-  .e-mail {
+  /* .e-mail {
     width: 216px;
-  }
+  } */
 }
 .go-button {
   width: 60px;
@@ -275,7 +279,7 @@
   margin-left: 8px;
   border-radius: 12px;
   background: #1d1d1d;
-    color: #fff;
+  color: #fff;
   text-align: center;
   font-family: DM Sans;
   font-size: 20px;
@@ -302,10 +306,6 @@
   }
 }
 
-@media screen and (min-width: 1278px) {
-  .forth-block {
-  }
-}
 .first-paragraf {
   min-width: 147px;
 }

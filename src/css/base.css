@@ -26,8 +26,7 @@ button {
 
 section {
   background-color: var(--black, #121212);
-  /* border-left: 0.5px solid rgba(255, 255, 255, 0.2);
-  border-right: 0.5px solid rgba(255, 255, 255, 0.2); */
+
 }
 
 .container {
@@ -35,7 +34,6 @@ section {
   min-width: 320px;
   padding: 0 20px;
   margin: 0 auto;
-  /* background-color: var(--black, #121212); */
 }
 @media screen and (max-width: 374.98px) {
   .container {
