@@ -76,15 +76,6 @@
 .ticker-white {
   color: #fff;
 }
-@keyframes marqueeLine {
-  from {
-    transform: translateX(0);
-  }
-
-  to {
-    transform: translateX(-100%);
-  }
-}
 @media screen and (min-width: 768px) {
   .marquee__line {
     font-size: 40px;
