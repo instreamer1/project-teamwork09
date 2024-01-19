@@ -24,16 +24,13 @@ button {
   border: none;
 }
 
-section {
-  background-color: var(--black, #121212);
-
-}
 
 .container {
   max-width: 374.98px;
   min-width: 320px;
   padding: 0 20px;
   margin: 0 auto;
+  background-color: var(--black, #121212);
 }
 @media screen and (max-width: 374.98px) {
   .container {

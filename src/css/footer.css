@@ -13,13 +13,7 @@
 .footer-wrap {
   margin-bottom: 58px;
 }
-@media screen and (max-width: 374.98px) {
-  .container {
-    max-width: 374.98px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-}
+
 
 @media screen and (min-width: 768px) {
   .container {
@@ -108,7 +102,6 @@
   .footer-container {
     padding: 50px 32px 25px;
     max-width: 768px;
-    /* height: 331px; */
     padding-right: 0;
     padding-left: 0;
   }
@@ -121,7 +114,6 @@
 }
 @media screen and (min-width: 1278px) {
   .footer-container {
-    /* padding: 0 25px; */
     max-width: 1440px;
   }
 }

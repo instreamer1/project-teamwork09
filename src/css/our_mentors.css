@@ -75,12 +75,10 @@
 @media screen and (min-width: 768px) {
   .our-mentors {
     max-width: 768px;
+    padding-bottom: 100px
   }
-  .mentors-container {
-    /* Tablet */
 
-    padding-bottom: 100px;
-  }
+
   .mentors {
     font-size: 48px;
     line-height: 1.13;
@@ -110,10 +108,7 @@
 @media screen and (min-width: 1280px) {
   .our-mentors {
     max-width: 1280px;
-  }
-  .mentors-container {
-    /* Desktop */
-    padding-bottom: 150px;
+     padding-bottom: 150px;
   }
 }
 

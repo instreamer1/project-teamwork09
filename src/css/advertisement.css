@@ -4,6 +4,7 @@
   padding: 0;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
   .advertisement {
@@ -21,20 +22,7 @@
     max-width: 1440px;
   }
 }
-.advertisement.container {
-  padding: 0;
-}
-@media screen and (min-width: 1280px) {
-  .advertisement.container {
-    padding: 0 20px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .advertisement.container {
-    padding-right: 101px;
-    padding-left: 100px;
-  }
-}
+
 .marquee {
   overflow: hidden;
 }

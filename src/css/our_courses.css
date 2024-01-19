@@ -1,6 +1,5 @@
 .our-courses {
   padding-bottom: 40px;
-  background: #121212;
   max-width: 374.98px;
   min-width: 320px;
   margin: 0 auto;
@@ -8,14 +7,12 @@
 
 @media only screen and (min-width: 768px) {
   .our-courses {
-    /* padding-top: 50px; */
     padding-bottom: 50px;
     min-width: 768px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .our-courses {
-    /* padding-top: 75px; */
     padding-bottom: 75px;
     min-width: 1280px;
   }
@@ -39,7 +36,6 @@
   line-height: 32px;
   letter-spacing: -1.12px;
   font-weight: 500;
-
   margin-bottom: 20px;
 }
 
@@ -61,10 +57,7 @@
   color: #fff;
   font-size: 14px;
   margin-bottom: 40px;
-
   line-height: 1.29;
-  /* letter-spacing: -0.02em; */
-
   max-width: 335px;
 }
 
@@ -104,13 +97,6 @@
     column-gap: 20px;
   }
 }
-/* @media only screen and (min-width: 1280px) {
-    .our-courses-list {
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-    }
-} */
 
 .our-courses-item {
   position: relative;

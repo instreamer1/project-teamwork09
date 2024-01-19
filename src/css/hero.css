@@ -133,10 +133,6 @@ h1 {
     background-image: url(../img/img-hero/graphicherogrid-tab.png);
   }
 
-  /* .hero.container {
-    padding-top: 64px;
-  } */
-
   h1 {
     font-size: 60px;
     width: 517px;
@@ -186,15 +182,7 @@ h1 {
   .grid {
     background-image: url(../img/img-hero/graphicherogriddesk.png);
   }
-  /* .hero.container {
-    margin-right: 100px;
-    margin-left: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 80px;
-  } */
+
   .hero-wrap {
     flex-direction: row;
     padding-left: 50px;
@@ -220,10 +208,6 @@ h1 {
     margin-left: 0;
     margin-right: 0;
   }
-
-  /* .student-img-photograph {
-    width: 397px;
-  } */
 }
 
 @media only screen and (min-width: 1440px) {
@@ -236,9 +220,6 @@ h1 {
   .hero-wrap {
     padding-right: 100px;
   }
-  /* .hero.container {
-    padding-right: 100px;
-  } */
 }
 
 @media only screen and (max-width: 1279.98px) {
@@ -291,10 +272,4 @@ h1 {
 .reviews-count {
   margin-bottom: 4px;
 }
-/* @media only screen and (min-width: 1280px) {
-  .wrapper-photograph {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: auto;
-  }
-} */
+
