@@ -14,7 +14,6 @@ img {
 .signup-container {
   display: flex;
   margin: 0 auto;
-
   width: auto;
 }
 
@@ -39,9 +38,6 @@ img {
     /* margin-left: 100px; */
     margin-right: 100px;
   }
-}
-
-@media screen and (min-width: 1280px) {
   .signup-forms {
     margin-right: 60px;
   }
@@ -161,17 +157,15 @@ select,
 .send-btn {
   width: 100%;
   background-color: #ffffff;
-  display: flex;
   margin-top: 40px;
   margin-bottom: 20px;
-  justify-content: center;
-  align-items: center;
+ text-align: center;
   font-size: 18px;
   font-weight: 700;
   line-height: 28px;
   text-transform: uppercase;
   color: #121212;
-  padding: 14px 127px;
+  padding: 14px 0;
   border-radius: 12px;
   position: relative;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);

@@ -44,10 +44,10 @@
 }
 
 @media screen and (max-width: 374.98px) {
-  .container {
+  /* .container {
     margin: 0 auto;
     padding: 0 16px;
-  }
+  } */
   .net {
     background-image: url(../img/header/headergridmob.png);
   }
@@ -67,10 +67,15 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
     padding: 15px 0px;
   }
+  .header-section-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
   .header-section__nav {
     display: flex;
-    justify-content: space-around;
+
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -111,7 +116,10 @@
     fill: #bea69e;
   }
 }
-
+.header-section-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .burger-content {
   position: absolute;
   top: 0;
@@ -332,7 +340,7 @@
   .header-section__btn {
     display: none;
   }
-  .header-section-container.container {
+  .header-section-container {
     padding-left: 50px;
     padding-right: 50px;
   }
